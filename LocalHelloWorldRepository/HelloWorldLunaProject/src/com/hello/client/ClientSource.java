@@ -9,5 +9,9 @@ public class ClientSource {
 		System.out.println("The total sum of the numbers is : " + ServerSource.addNumbers(4, 5));
 		System.out.println("The total product of the numbers is : " + ServerSource.multiplyNumbers(4, 5));
 	}
+	
+	public static localSum(int b, int c) {
+		return (b+ 10*c);
+	}
 
 }
